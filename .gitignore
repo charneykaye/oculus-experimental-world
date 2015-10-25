@@ -1,0 +1,8 @@
+# Unity
+/Temp
+
+# Binaries for distribution
+/Bin
+
+# Microsoft Visual Studio
+.vs
