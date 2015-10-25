@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Player.cpp" />
+    <ClCompile Include="..\..\..\Lib\3rdParty\TinyXml\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\ExperimentalWorld.cpp" />
+    <ClCompile Include="..\..\..\ExperimentalWorld_Scene.cpp" />
+    <ClCompile Include="..\..\..\Lib\Render\Render_D3D11_Device.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Render\Render_Device.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Render\Render_GL_Device.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Render\Render_GL_Win32_Device.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Render\Render_LoadTextureDDS.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Render\Render_LoadTextureTGA.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Render\Render_XmlSceneLoader.cpp">
+      <Filter>Lib\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Platform\Platform.cpp">
+      <Filter>Lib\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Platform\Win32_Gamepad.cpp">
+      <Filter>Lib\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Platform\Win32_Platform.cpp">
+      <Filter>Lib\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Util\OptionMenu.cpp">
+      <Filter>Lib\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Util\RenderProfiler.cpp">
+      <Filter>Lib\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Player.h" />
+    <ClInclude Include="..\..\..\ExperimentalWorld.h" />
+    <ClInclude Include="..\..\..\Lib\Render\Render_D3D11_Device.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Render\Render_Device.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Render\Render_Font.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Render\Render_FontEmbed_DejaVu48.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Render\Render_GL_Device.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Render\Render_GL_Win32_Device.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Render\Render_XmlSceneLoader.h">
+      <Filter>Lib\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Platform\Gamepad.h">
+      <Filter>Lib\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Platform\Platform.h">
+      <Filter>Lib\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Platform\Platform_Default.h">
+      <Filter>Lib\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Platform\Win32_Gamepad.h">
+      <Filter>Lib\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Platform\Win32_Platform.h">
+      <Filter>Lib\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Util\OptionMenu.h">
+      <Filter>Lib\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Util\RenderProfiler.h">
+      <Filter>Lib\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\ExperimentalWorld.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{504d7869-1138-4ea5-bee9-dda5524c1b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Util">
+      <UniqueIdentifier>{358fbb8e-1f1e-407f-aab6-ce9b470b074d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Platform">
+      <UniqueIdentifier>{719e8459-af28-4769-8427-125be869ff96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Render">
+      <UniqueIdentifier>{1424a98b-6869-48b7-ab29-edb6fbbd2622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Lib\Oculus.ico">
+      <Filter>Lib</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
