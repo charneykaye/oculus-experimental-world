@@ -1,7 +1,8 @@
 # Unity
 /Temp
 
-# Binaries for distribution
+# Build Artifacts
+/Obj
 /Bin
 
 # Microsoft Visual Studio
