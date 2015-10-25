@@ -1,0 +1,24 @@
+﻿Build started 10/24/2015 8:25:24 PM.
+     1>Project "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\LibOVR.vcxproj" on node 3 (Build target(s)).
+     1>PreBuildEvent:
+         echo static const char* OVR_FORCE_REBUILD_PRE = __TIMESTAMP__; /* DO NOT SOURCE CONTROL THIS FILE */ > "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\OVR_ForceRebuildNoCheckin.h"
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I../../../Include /Z7 /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/" /Fd"C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/LibOVR.pdb" /Gd /TC /analyze- /Zl /errorReport:prompt /FC ..\..\..\Src\OVR_CAPIShim.c
+         OVR_CAPIShim.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I../../../Include /Z7 /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/" /Fd"C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/LibOVR.pdb" /Gd /TP /analyze- /Zl /errorReport:prompt /FC ..\..\..\Src\OVR_CAPI_Util.cpp ..\..\..\Src\OVR_StereoProjection.cpp
+         OVR_CAPI_Util.cpp
+         OVR_StereoProjection.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Lib/Windows/Win32/Debug/VS2015/LibOVR.lib" /NOLOGO "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/OVR_CAPIShim.obj"
+         "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/OVR_CAPI_Util.obj"
+         "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Obj/LibOVR/Windows/Win32/Debug/VS2015/OVR_StereoProjection.obj"
+         LibOVR.vcxproj -> C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\../../../Lib/Windows/Win32/Debug/VS2015/LibOVR.lib
+       PostBuildEvent:
+         echo static const char* OVR_FORCE_REBUILD_POST = __TIMESTAMP__; /* DO NOT SOURCE CONTROL THIS FILE */ > "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\OVR_ForceRebuildNoCheckin.h"
+         :VCEnd
+     1>Done Building Project "C:\Users\Nick\Development\OculusSDK-0.8.0.0\LibOVR\Projects\Windows\VS2015\LibOVR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.92

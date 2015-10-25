@@ -1,0 +1,133 @@
+﻿Build started 10/24/2015 9:43:02 PM.
+     1>Project "C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\ExperimentalWorld.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Lib\LibOVR/Include/ /IC:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Lib\LibOVRKernel/Src/ /Z7 /nologo /W4 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/" /Fd"C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Lib\3rdParty\TinyXml\tinyxml2.cpp ..\..\..\ExperimentalWorld.cpp ..\..\..\ExperimentalWorld_Scene.cpp ..\..\..\Lib\Platform\Platform.cpp ..\..\..\Lib\Platform\Win32_Gamepad.cpp ..\..\..\Lib\Platform\Win32_Platform.cpp ..\..\..\Lib\Render\Render_D3D11_Device.cpp ..\..\..\Lib\Render\Render_Device.cpp ..\..\..\Lib\Render\Render_GL_Device.cpp ..\..\..\Lib\Render\Render_GL_Win32_Device.cpp ..\..\..\Lib\Render\Render_LoadTextureDDS.cpp ..\..\..\Lib\Render\Render_LoadTextureTGA.cpp ..\..\..\Lib\Render\Render_XmlSceneLoader.cpp ..\..\..\Lib\Util\OptionMenu.cpp ..\..\..\Lib\Util\RenderProfiler.cpp ..\..\..\Player.cpp
+         tinyxml2.cpp
+         ExperimentalWorld.cpp
+         ExperimentalWorld_Scene.cpp
+         Platform.cpp
+         Win32_Gamepad.cpp
+         Win32_Platform.cpp
+         Render_D3D11_Device.cpp
+         Render_Device.cpp
+         Render_GL_Device.cpp
+         Render_GL_Win32_Device.cpp
+         Render_LoadTextureDDS.cpp
+         Render_LoadTextureTGA.cpp
+         Render_XmlSceneLoader.cpp
+         OptionMenu.cpp
+         RenderProfiler.cpp
+         Player.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/ExperimentalWorld.res" ..\..\..\ExperimentalWorld.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Bin\Windows\Win32\Debug\VS2015\ExperimentalWorld.exe" /INCREMENTAL /NOLOGO C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Lib\LibOVRKernel/Lib/Windows/Win32/Debug/VS2015/LibOVRKernel.lib C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Lib\LibOVR/Lib/Windows/Win32/Debug/VS2015/LibOVR.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\PerMonitorHighDPIAware.manifest" /Debug /PDB:"C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Bin\Windows\Win32\Debug\VS2015\ExperimentalWorld.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Bin\Windows\Win32\Debug\VS2015\ExperimentalWorld.lib" /MACHINE:X86 C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/ExperimentalWorld.res
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/tinyxml2.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/ExperimentalWorld.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/ExperimentalWorld_Scene.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Platform.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Win32_Gamepad.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Win32_Platform.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_D3D11_Device.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_Device.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_GL_Device.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_GL_Win32_Device.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_LoadTextureDDS.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_LoadTextureTGA.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Render_XmlSceneLoader.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/OptionMenu.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/RenderProfiler.obj
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\../../../Obj/ExperimentalWorld/Windows/Win32/Debug/VS2015/Player.obj
+         ExperimentalWorld.vcxproj -> C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Bin\Windows\Win32\Debug\VS2015\ExperimentalWorld.exe
+       PostBuildEvent:
+         xcopy /S /Y /I "C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets" "C:\Users\Nick\Development\ExperimentalWorld\Bin\Windows\Win32\Debug\VS2015\Assets" & xcopy /Y "C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Lib\3rdParty\Windows Kits\8.1\Redist\D3D\x86\d3dcompiler_47.dll" "C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Bin\Windows\Win32\Debug\VS2015\"
+         :VCEnd
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Bark.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Barrel.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Bench.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Book.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Chair1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Chair2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\ChimneyBrick.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Concrete1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Concrete2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Distance Tree.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Distance1_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Distance2_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Distance3_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\FireWood.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Floor.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Fountain.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\HouseBack.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\HouseFront.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\HouseLeft.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\HouseRight.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\house_exteriorLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\House_InteriorLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Hutch.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\InteriorLeft.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\IntertiorBack.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\IntertiorFront.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Iron.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Leaves.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\LeftController.xml
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\MetalRusty.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\MossConcrete.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Ocean.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Picture1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Picture2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Picture3.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Props_ExteriorLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Props_InteriorLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Rocks.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\RoofShingles.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Shutter.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Sky0_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Sky1_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Sky2_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Sky3_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Sky4_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Spore.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\StoneWall.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Table1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Table2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Terrain Ground1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Terrain Ground2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Terrain Ground3.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Terrain_DistanceLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Terrain_YardLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Terrain_YardLightingMap_c.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\TreeSkinny.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tree_ TallLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\tree_A01LightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\tree_A02LightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\tree_A03LightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\tree_BLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\tree_CLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tuscany.xml
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tuscany_Cockpit_Panel.tga
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tuscany_greenCube.tga
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tuscany_LoadScreen.tga
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tuscany_OculusCube.tga
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Tuscany_redCube.tga
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Vase.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\VaseLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Village Houses.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\VillageLightingMap.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Window.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\WoodPlanks.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\WoodPlanksSmall.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Yard1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Yard2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Yard3.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Yard_Patio1.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Yard_Patio2.dds
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Assets\Tuscany\Yard_Plain.dds
+         81 File(s) copied
+         C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\..\..\..\Lib\3rdParty\Windows Kits\8.1\Redist\D3D\x86\d3dcompiler_47.dll
+         1 File(s) copied
+     1>Done Building Project "C:\Users\Nick\Development\ExperimentalWorld\Projects\Windows\VS2015\ExperimentalWorld.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.83
